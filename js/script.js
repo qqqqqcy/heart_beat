@@ -24,7 +24,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 // 表示对象局部位置的 Vector3。默认值为(0, 0, 0)。
-camera.position.z = 1;
+camera.position.z = 1.8;
 
 // 轨迹球控制器
 const controls = new THREE.TrackballControls(camera, renderer.domElement);
